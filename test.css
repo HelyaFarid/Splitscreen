@@ -1,0 +1,67 @@
+html,body,.dashboard{
+    width:100%;
+    height:100%;
+    margin:0;
+}
+
+.col1{
+    width:100%;
+    height:20%;
+}
+.col1 > div{
+    width:25%;
+    height:100%;
+    float:left;
+}
+.col2{
+    width: 85%;
+    height:80%;
+    float:left;
+}
+.col2 > div{
+    float:left;
+}
+.col2 .box6{
+    float:right;
+    width: 45%;
+    height:70%;
+}
+.box5,.box8{
+    width:55%;
+}
+.box5{
+    height:30%;
+}
+.box8{
+    height:40%;
+}
+.box9{
+    height:12%;
+    width:100%;
+}
+.box10{
+    height:18%;
+    width:100%;
+}
+.box7,.box11{
+    width:15%;
+    
+}
+.box7{
+    height:70%;
+    width:15%;
+    float:left;
+}
+.box11{
+    height:10%;
+    width:15%;
+    float:left;
+}
+
+.border {
+  background-color: white;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  border:1px solid #000;
+}
